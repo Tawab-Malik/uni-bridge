@@ -12,11 +12,13 @@ const Header = () => {
 
     // Close the menu when clicking outside (optional for better UX)
     useEffect(() => {
-        const handleOutsideClick = (event: any) => {
-            if (!event.target.closest('#mobileMenu') && isOpen) {
+        const handleOutsideClick = (event: MouseEvent) => {
+            const target = event.target as HTMLElement;
+            if (isOpen && target && !target.closest('#mobileMenu')) {
                 setIsOpen(false);
             }
         };
+        
         document.addEventListener('click', handleOutsideClick);
         return () => document.removeEventListener('click', handleOutsideClick);
     }, [isOpen]);

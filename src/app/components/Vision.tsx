@@ -1,9 +1,9 @@
 "use client"
 import { motion } from "framer-motion";
 import Image from "next/image";
-import ShineBorder from "@/components/ui/shine-border";
+// import ShineBorder from "@/components/ui/shine-border";
 export default function VisionSection() {
-    const themeColor = "dark";
+    // const themeColor = "dark";
 
     return (
         <section className="bg-gradient-to-b from-blue-50 to-white py-16 xl:py-24">

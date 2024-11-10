@@ -1,9 +1,9 @@
 "use client"
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
-import Link from "next/link";
+// import Link from "next/link";
 import { motion } from "framer-motion";
 import { Button} from "@nextui-org/react";  // Import useTheme here
-import ShineBorder from "@/components/ui/shine-border";
+// import ShineBorder from "@/components/ui/shine-border";
 export default function Herosection() {
 
     const words = [
@@ -50,8 +50,5 @@ export default function Herosection() {
             </section>
         </>
     );
-}
-function useTheme() {
-    throw new Error("Function not implemented.");
 }
 
