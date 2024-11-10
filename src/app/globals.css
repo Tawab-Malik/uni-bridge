@@ -9,3 +9,23 @@ body {
   html{
      scroll-behavior: smooth;
   }
+  .slick-dots li button:before {
+   font-size: 10px !important;
+   line-height: 20px !important;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 50px !important;
+   height: 50px !important;
+   content: '•';
+   text-align: center;
+   opacity: .25;
+   color: #0D9488 !important;
+}
+.slick-dots {
+   bottom: -36px !important;
+   width: 100%;
+   margin: 0;
+   list-style: none;
+   text-align: center;
+}

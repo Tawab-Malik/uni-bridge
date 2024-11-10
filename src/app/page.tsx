@@ -1,4 +1,5 @@
 // import FeaturesSection from "./components/Features";
+import AimSection from "./components/Aims";
 import Header from "./components/Header";
 import Herosection from "./components/Herosecton";
 import VisionSection from "./components/Vision";
@@ -10,6 +11,7 @@ export default function Home() {
       <Herosection/>
       {/* <FeaturesSection/> */}
       <VisionSection/>
+      <AimSection/>
     </>
   );
 }
