@@ -12,7 +12,6 @@ const config = {
   prefix: "",
   theme: {
   	container: {
-  		
   		padding: '2rem',
   		screens: {
   			'2xl': '1400px'
@@ -20,6 +19,7 @@ const config = {
   	},
   	extend: {
   		keyframes: {
+			
   			'accordion-down': {
   				from: {
   					height: '0'
@@ -46,12 +46,19 @@ const config = {
   				to: {
   					'background-position': '0% 0%'
   				}
+  			},
+  			gradient: {
+  				to: {
+  					backgroundPosition: 'var(--bg-size) 0'
+  				}
   			}
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out',
-  			shine: 'shine var(--duration) infinite linear'
+  			shine: 'shine var(--duration) infinite linear',
+  			gradient: 'gradient 8s linear infinite'
+			
   		}
   	}
   },
