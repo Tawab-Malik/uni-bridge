@@ -28,7 +28,7 @@ const Header = () => {
             <div className='flex  items-center justify-between max-w-7xl mx-auto'>
                 {/* Logo */}
                 <div className="text-black text-xl md:text-3xl font-bold">
-                    <Link href="/" className=" text-black font-bold" >
+                    <Link href="/" className=" text-[#0d9488] font-bold" >
                         UniBridge Learning
                     </Link>
 

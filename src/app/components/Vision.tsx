@@ -7,7 +7,7 @@ export default function VisionSection() {
 
     return (
         <section className="bg-gradient-to-b from-blue-50 to-white py-16 xl:py-24">
-            <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
+            <div className="max-w-6xl mx-auto px-2.5 lg:px-8 text-center">
           
                 <motion.h2
                 initial={{ opacity: 0, y: 50 }}

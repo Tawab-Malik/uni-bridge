@@ -73,7 +73,7 @@ const AimSection = () => {
 
     return (
         <section className="bg-[#111827] py-12 md:py-24 overflow-hidden">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-2.5 md:px-6">
                 <motion.h2
                     initial={{ y: 50 }}
                     whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
