@@ -38,16 +38,16 @@ const Header = () => {
                 <div className=' flex gap-x-4'>
 
                     <div className="hidden md:flex text-[#1f2937] items-center space-x-8 text-base font-medium ">
-                        <Link href="/" className="text-[#1f2937]">
+                        <Link href="/" className="text-[#1f2937] hover:text-[#0d9488] duration-500 ">
                             Home
                         </Link>
-                        <Link href="#about" className="text-[#1f2937]">
+                        <Link href="#about" className="text-[#1f2937] hover:text-[#0d9488] duration-500 ">
                             About
                         </Link>
-                        <Link href="#courses" className="text-[#1f2937]">
+                        <Link href="#courses" className="text-[#1f2937]  hover:text-[#0d9488] duration-500  ">
                             Courses
                         </Link>
-                        <Link href="#contact" className="text-[#1f2937]">
+                        <Link href="#contact" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
                             Contact
                         </Link>
                     </div>
