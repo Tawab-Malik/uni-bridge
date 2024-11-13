@@ -1,5 +1,5 @@
 "use client"
-import AnimatedGradientText from '@/components/ui/animated-gradient-text';
+// import AnimatedGradientText from '@/components/ui/animated-gradient-text';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
@@ -15,16 +15,16 @@ export default function Objectives() {
     ];
 
     return (
-        <section className='bg-[#111827] py-12 md:py-24 overflow-hidden'>
+        <section className='bg-white py-12 md:py-24 overflow-hidden'>
             <div className="flex flex-col xl:flex-row items-center gap-20  py-12  md:px-16 lg:px-24 max-w-7xl mx-2.5 xl:mx-auto">
-                
+
                 {/* Image Section */}
                 <motion.div
                     className="relative w-full xl:w-1/2 flex items-center justify-center xl:justify-between mb-8 md:mb-0"
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1.5 }}
-                    viewport={{ once: false }}  >
+                    viewport={{ once: true }}  >
                     <div className=" rounded-full  flex justify-center items-center">
                         <Image
                             src="/images/objective/objective.jpg"
@@ -39,9 +39,16 @@ export default function Objectives() {
                 {/* Objectives Content */}
                 <div className="w-full xl:w-1/2">
                     <div className='mb-16'>
-                        <AnimatedGradientText>
+                        <motion.h2
+                            initial={{ y: 50 }}
+                            whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
+                            viewport={{ once: true, amount: 0.1 }}
+                            className='text-3xl md:text-4xl xl:text-5xl  font-bold  text-[#0D9488] text-center'>
                             The Objectives
-                        </AnimatedGradientText>
+                            {/* <AnimatedGradientText > */}
+
+                            {/* </AnimatedGradientText> */}
+                        </motion.h2>
                     </div>
 
                     {/* Objectives List */}
@@ -53,12 +60,12 @@ export default function Objectives() {
                                 initial={{ opacity: 0, x: 50 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ delay: index * 0.2, duration: 0.5 }}
-                                viewport={{ once: false }}  
+                                viewport={{ once: true }}
                             >
                                 <span className="flex items-center justify-center bg-[#0D9488] text-white rounded-full w-10 min-w-10 h-10 font-semibold text-center">
                                     {index + 1}
                                 </span>
-                                <p className="text-white text-lg">{text}</p>
+                                <p className="text-[#4b5563] text-lg">{text}</p>
                             </motion.div>
                         ))}
                     </div>

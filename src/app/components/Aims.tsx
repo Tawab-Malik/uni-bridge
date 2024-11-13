@@ -72,12 +72,12 @@ const AimSection = () => {
     ];
 
     return (
-        <section className="bg-[#111827] py-12 md:py-24 overflow-hidden">
+        <section className="bg-white py-12 md:py-24 overflow-hidden">
             <div className="container mx-auto px-2.5 md:px-6">
                 <motion.h2
                     initial={{ y: 50 }}
                     whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
-                    viewport={{ once: false, amount: 0.1 }}
+                    viewport={{ once: true, amount: 0.1 }}
                     className=" text-3xl md:text-4xl xl:text-5xl font-bold text-center text-[#0D9488] mb-5"
                 >
                     Our Aim
@@ -85,7 +85,7 @@ const AimSection = () => {
                 <motion.p
                     initial={{ y: 50 }}
                     whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
-                    viewport={{ once: false, amount: 0.1 }}
+                    viewport={{ once: true, amount: 0.1 }}
                     className="text-lg  text-center text-white mb-14"
                 >
                     Our Aims to fostering a transformative learning experience.
@@ -105,16 +105,16 @@ const AimSection = () => {
                                     <motion.h3
                                         initial={{ y: 50 }}
                                         whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
-                                        viewport={{ once: false, amount: 0.1 }}
-                                        className="text-2xl font-semibold text-gray-700 my-4"
+                                        viewport={{ once: true, amount: 0.1 }}
+                                        className="text-2xl font-semibold text-black my-4"
                                     >
                                         {aim.title}
                                     </motion.h3>
                                     <motion.p
                                         initial={{ y: 50 }}
                                         whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
-                                        viewport={{ once: false, amount: 0.1 }}
-                                        className="text-gray-600"
+                                        viewport={{ once: true, amount: 0.1 }}
+                                        className="text-[#4b5563]"
                                     >
                                         {aim.description}
                                     </motion.p>

@@ -1,5 +1,5 @@
 "use client"
-import AnimatedGradientText from '@/components/ui/animated-gradient-text';
+// import AnimatedGradientText from '@/components/ui/animated-gradient-text';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
@@ -18,20 +18,20 @@ const MissionSection = () => {
                 <motion.h2
                  initial={{ y: 50 }}
                  whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
-                 viewport={{ once: false, amount: 0.1 }}
-                className='text-3xl md:text-4xl xl:text-5xl font-bold flex gap-x-5 items-center text-center justify-center'>
-                    Our
-                    <AnimatedGradientText >
-                        Mission
-                    </AnimatedGradientText>
+                 viewport={{ once: true, amount: 0.1 }}
+                className='text-3xl md:text-4xl xl:text-5xl flex-row font-bold flex gap-x-5 text-[#0D9488] items-center text-center w-full xl:w-2/6 justify-center'>
+                    Our Mission
+                    {/* <AnimatedGradientText > */}
+                      
+                    {/* </AnimatedGradientText> */}
                 </motion.h2>
 
             
                 <motion.p 
                  initial={{ y: 50 }}
                  whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
-                 viewport={{ once: false, amount: 0.1 }}
-                className="text-gray-600">
+                 viewport={{ once: true, amount: 0.1 }}
+                className="text-[#4b5563] w-full xl:w-4/6 pt-5">
                     Empowering minds through continuous learning and personalized support is at the heart of our mission. We believe in building a strong foundation where each educator and learner feels supported at every step. Our team is dedicated to providing timely guidance and valuable insights, ensuring that each educational journey is enriched with knowledge and purpose. With a commitment to clarity and responsiveness, we are always ready to address questions and provide resources, fostering an environment where learning thrives without limits.
                 </motion.p>
             </div>
