@@ -6,7 +6,7 @@ export default function VisionSection() {
     // const themeColor = "dark";
 
     return (
-        <section className="bg-gradient-to-b from-blue-50 to-white py-16 xl:py-24">
+        <section className="bg-gradient-to-b from-blue-50 to-white py-16 xl:py-24" id="about">
             <div className="max-w-6xl mx-auto px-2.5 lg:px-8 text-center">
           
                 <motion.h2

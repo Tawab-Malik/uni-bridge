@@ -49,3 +49,7 @@ body {
  ::-webkit-scrollbar-thumb:hover {
    background: #0f635c; 
  }
+
+ .after\:bg-primary::after{
+     background-color: #0D9488 !important;
+ }

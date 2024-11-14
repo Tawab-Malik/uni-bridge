@@ -49,7 +49,7 @@ const Header = () => {
                         <Link href="#courses" className="text-[#1f2937]  hover:text-[#0d9488] duration-500  ">
                             Courses
                         </Link>
-                        <Link href="#contact" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
+                        <Link href="/contact" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
                             Contact
                         </Link>
                     </div>
