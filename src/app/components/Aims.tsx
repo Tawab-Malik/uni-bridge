@@ -11,7 +11,7 @@ const AimSection = () => {
         infinite: true,
         arrows: false,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
@@ -90,10 +90,10 @@ const AimSection = () => {
                 >
                     Our Aims to fostering a transformative learning experience.
                 </motion.p>
-                <Slider {...settings}>
+                <Slider {...settings} className="h-full">
                     {aims.map((aim, index) => (
                         <div key={index} className="px-6 h-full">
-                            <div className="grid grid-cols-1 bg-white rounded-lg  shadow-lg h-[440px] md:h-[470px]  xl:h-auto">
+                            <div className="grid grid-cols-1 bg-white rounded-lg   h-[440px] md:h-[470px]  xl:h-full">
                                 <Image
                                     src={aim.image}
                                     alt="Aim Image"
@@ -106,7 +106,7 @@ const AimSection = () => {
                                         initial={{ y: 50 }}
                                         whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
                                         viewport={{ once: true, amount: 0.1 }}
-                                        className="text-2xl font-semibold text-black my-4"
+                                        className="text-2xl font-semibold text-black mb-4"
                                     >
                                         {aim.title}
                                     </motion.h3>
