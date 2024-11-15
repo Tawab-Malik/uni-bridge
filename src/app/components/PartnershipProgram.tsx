@@ -111,7 +111,7 @@ const PartnershipProgram = () => {
                         Join our partnership program and help us create impactful educational
                         experiences for learners everywhere.
                     </p>
-                    <Link href='' >
+                    <Link href='/contact' >
                         <Button className="mt-8  px-6 h-auto py-3 text-sm  md:text-lg font-semibold rounded-xl bg-orange-600 text-white hover:bg-orange-800 duration-500">
                             Become a Partner
                         </Button>

@@ -14,6 +14,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
         <>
             <footer className="bg-[#111827] pb-9 md:pb-12  overflow-hidden">
@@ -79,7 +80,7 @@ export default function Footer() {
 
 
                     </div>
-                    <p className=" text-center text-orange-500 text-sm border-t border-opacity-35 border-white pt-5">Uni-Bridge ©2024 All Rights Reserved</p>
+                    <p className=" text-center text-orange-500 text-sm border-t border-opacity-35 border-white pt-5">Uni-Bridge ©{currentYear} All Rights Reserved</p>
                 </div>
             </footer>
         </>
