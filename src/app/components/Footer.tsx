@@ -40,7 +40,7 @@ export default function Footer() {
                                 <h2 className="text-base xl:text-lg text-orange-500 font-semibold">Menu</h2>
                                 <ul className="pt-5 text-sm  space-y-4">
                                     <li><Link className="hover:text-[#0D9488] text-sm xl:text-base text-white duration-300" href="/">Home</Link></li>
-                                    <li><Link className="hover:text-[#0D9488] text-sm xl:text-base text-white duration-300" href="/#about">About</Link>
+                                    <li><Link className="hover:text-[#0D9488] text-sm xl:text-base text-white duration-300" href="/about">About</Link>
                                     </li>
                                     <li><Link className="hover:text-[#0D9488] text-sm xl:text-base text-white duration-300" href="/courses">Courses</Link>
                                     </li>
