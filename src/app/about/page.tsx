@@ -3,47 +3,77 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import AimSection from '../components/Aims';
+import MissionSection from '../components/Mission';
+import { Button } from '@nextui-org/react';
+// import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
+import Link from 'next/link';
 
 const About = () => {
+    // const words = [
+    //     { text: "Creating a" },
+    //     { text: "more" },
+    //     { text: "sustainable," },
+    //     { text: "peaceful," },
+    //     { text: "and just" },
+    //     { text: "world" },
+    // ];
     return (
-        <section className="bg-white pt-24">
+        <section className="bg-white pt-28">
+            <div className=' relative bg-[url(/images/about.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]'>
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+                {/* <TypewriterEffectSmooth words={words} /> */}
+                <h2 className=' relative text-4xl md:text-5xl text-center font-bold text-blue-chill '>About Us</h2>
+                <p
+                    className="text-sm md:text-xl pt-5 md:pt-8 text-white text-center relative px-5 md:px-0"
+                    
+                >
+                    &quot;Empowering your journey with the right skills and knowledge.&quot;
+                </p>
+
+
+                <div
+                    className="flex justify-center  mt-5 md:mt-10"
+                   
+                >
+                    <Link  href="/">
+                    <Button
+                       
+                        className=" px-5 md:!px-10  h-auto py-3 md:!py-4 text-sm  md:text-lg font-semibold rounded-xl bg-orange-600 text-white hover:bg-orange-800 duration-500"
+                    >
+                        Learn More
+                    </Button>
+                    </Link>
+                    
+                </div>
+
+            </div>
             <div className="max-w-7xl mx-2.5 xl:mx-auto">
+                {/* Header Section */}
+                {/* <motion.div
+                    className="text-center mb-12"
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    viewport={{ once: true }}
+                >
+                    <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold text-[#0D9488] text-center">
+                        About Us
+                    </h1>
+                    <p className="mt-6 text-black text-lg text-center px-0 md:px-16">
+                        At the core of our mission is the belief that education is the foundation of growth and transformation. We are dedicated to fostering learning experiences that inspire curiosity, critical thinking, and innovation. By embracing diverse perspectives and leveraging cutting-edge resources, we strive to create an environment where knowledge thrives and individuals are empowered to reach their fullest potential.
+                    </p>
+                </motion.div> */}
+
+
+
+                <AimSection />
+                <MissionSection />
                 <div className="py-16">
-                    {/* Header Section */}
-                    <motion.div
-                        className="text-center mb-12"
-                        initial={{ opacity: 0, y: 50 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, ease: "easeOut" }}
-                        viewport={{ once: true }}
-                    >
-                        <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold text-[#0D9488] text-center">
-                            About Us
-                        </h1>
-                        <p className="mt-4 text-black text-lg text-center">
-                            Empowering Minds Through Education
-                        </p>
-                    </motion.div>
 
-                    {/* Mission Section */}
-                    <motion.div
-                        className="bg-white shadow-xl rounded-xl border-2 border-blue-chill-400 p-5 md:p-8 mb-12 mt-5"
-                        initial={{ opacity: 0, y: 50 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-                        viewport={{ once: true }}
-                    >
-                        <h2 className="text-2xl font-semibold text-[#F97316] mb-4">
-                            Our Mission
-                        </h2>
-                        <p className="text-gray-600 text-lg leading-relaxed">
-                            Our mission is to create a platform that fosters learning, growth, and innovation.
-                            We aim to provide quality educational resources and opportunities to students of all
-                            ages, empowering them to achieve their full potential.
-                        </p>
-                    </motion.div>
 
-                    {/* Values Section */}
+
+                    {/* Values Section
                     <motion.div
                         className="bg-gray-100 shadow-lg rounded-xl border-2 border-blue-chill-400 p-5 md:p-8 mb-12"
                         initial={{ opacity: 0, y: 50 }}
@@ -60,7 +90,7 @@ const About = () => {
                             <li>Integrity: Honesty and transparency in everything we do.</li>
                             <li>Excellence: Striving for the highest standards in education.</li>
                         </ul>
-                    </motion.div>
+                    </motion.div> */}
 
                     {/* Team Section */}
                     <motion.div

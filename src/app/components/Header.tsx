@@ -77,16 +77,16 @@ const Header = () => {
                         }`}
                 >
                     <div className="flex md:hidden flex-col text-[#1f2937] items-center space-y-4 py-5 text-lg font-medium ">
-                        <Link href="#about" className="text-[#1f2937]">
+                        <Link href="/" className="text-[#1f2937]">
                             Home
                         </Link>
-                        <Link href="#work" className="text-[#1f2937]">
+                        <Link href="/about" className="text-[#1f2937]">
                             About
                         </Link>
-                        <Link href="#testimonials" className="text-[#1f2937]">
+                        <Link href="/courses" className="text-[#1f2937]">
                             Courses
                         </Link>
-                        <Link href="#contact" className="text-[#1f2937]">
+                        <Link href="/contact" className="text-[#1f2937]">
                             Contact
                         </Link>
                     </div>

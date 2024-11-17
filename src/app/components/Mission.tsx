@@ -12,7 +12,7 @@ const images = [
 
 const MissionSection = () => {
     return (
-        <div className=" max-w-7xl mx-2.5 xl:mx-auto   py-12 md:py-24  bg-white">
+        <div className=" max-w-7xl mx-2.5 xl:mx-auto   py-12 md:py-16  bg-white">
             {/* Left Section: Text Content */}
             <div className=" flex flex-col xl:flex-row justify-between items-start mb-8 lg:mb-0 lg:pr-8 gap-x-10">
                 <motion.h2
@@ -42,7 +42,7 @@ const MissionSection = () => {
                     <motion.div
                         key={index}
                         className="rounded-xl overflow-hidden shadow-[0_10px_18px_15px_rgba(7,148,190,0.2)]"
-                        whileHover={{ scale: 1.1 }}
+                        whileHover={{ scale: 1 }}
                         transition={{ duration: 0.3 }}
                     >
                         <Image src={src} alt={`Mission Image ${index + 1}`} height={1100} width={800} className="w-full h-full object-cover" />

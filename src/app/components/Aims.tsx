@@ -13,9 +13,9 @@ const AimSection = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        pauseOnHover: true,
+        autoplay: false,
+        // autoplaySpeed: 3000,
+        // pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1024,
@@ -72,7 +72,7 @@ const AimSection = () => {
     ];
 
     return (
-        <section className="bg-white py-12 md:py-24 overflow-hidden">
+        <section className="bg-white py-12 md:py-16 overflow-hidden">
             <div className="container mx-auto px-2.5 md:px-6">
                 <motion.h2
                     initial={{ y: 50 }}
@@ -86,7 +86,7 @@ const AimSection = () => {
                     initial={{ y: 50 }}
                     whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
                     viewport={{ once: true, amount: 0.1 }}
-                    className="text-lg  text-center text-white mb-14"
+                    className="text-lg  text-center text-black mb-14"
                 >
                     Our Aims to fostering a transformative learning experience.
                 </motion.p>
@@ -101,7 +101,7 @@ const AimSection = () => {
                                     width={1000}
                                     className="rounded-t-lg object-cover"
                                 />
-                                <div className="flex flex-col justify-between flex-grow p-6">
+                                <div className="flex flex-col justify-between flex-grow py-6">
                                     <motion.h3
                                         initial={{ y: 50 }}
                                         whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}

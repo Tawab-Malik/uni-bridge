@@ -1,8 +1,11 @@
 "use client"
 import { Button, Checkbox, Input, Textarea } from "@nextui-org/react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 // import Image from "next/image";
 // import Link from "next/link";
+import { MdEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
 
 import React from "react";
 
@@ -12,33 +15,43 @@ export default function Contactus() {
     return (
         <>
             <section className=" text-zuccini bg-white pt-24">
+
+                <div className=" relative bg-[url(/images/contact.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]">
+                    <div className="absolute inset-0 bg-black opacity-50"></div>
+                    <h2
+                        className=" text-4xl lg:text-5xl text-blue-chill font-bold text-center relative">Contact Us</h2>
+                    <p
+                        // initial={{ opacity: 0, y: 100 }}
+                        // whileInView={{ opacity: 1, y: 0 }}
+                        // transition={{ duration: 1.7 }}
+                        // viewport={{ once: true }}
+                        className="relative text-base lg:text-xl text-white pt-3 lg:pt-6  text-center lg:px-0">
+                        Send us a message if you have any questions about working with ScalePass.
+                    </p>
+
+                    <div className=" flex flex-col md:flex-row gap-5 justify-center mx-5 md:mx-0 mt-10 relative">
+                        <Link href="mailto:zaintariq6780@icloudl.com" className=" flex justify-center bg-[#ea580c] w-auto items-center gap-x-2 text-white rounded-lg py-3 px-5" >
+                            <MdEmail className=" h-6 w-6 text-white" />
+                            <p className=" text-sm md:text-base">Email: zaintariq6780@icloudl.com</p>
+                        </Link>
+                        <Link href="tel:+447774068884" className=" flex justify-center w-auto bg-[#ea580c]  items-center gap-x-2 text-white rounded-lg py-4 px-5">
+                            <FaPhone className=" h-6 w-6 text-white" />
+                            <p className="  text-sm md:text-base">Number: +447774068884</p>
+                        </Link>
+                    </div>
+                </div>
                 <div className=" flex flex-col-reverse md:flex-row max-w-7xl mx-auto ">
                     {/* left div */}
                     <div className=" pb-10 pt-16  md:py-10 lg:!py-20 px-5 md:px-8 lg:!pr-20 w-full">
-                        <motion.h3
-                        
-                        initial={{ opacity: 0, y: 100 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1.5 }}
-                        viewport={{ once: true }}  
-                        className=" text-2xl md:text-3xl lg:text-5xl text-blue-chill font-bold text-center">Contact Us</motion.h3>
-                        <motion.p
-                         initial={{ opacity: 0, y: 100 }}
-                         whileInView={{ opacity: 1, y: 0 }}
-                         transition={{ duration: 1.7 }}
-                         viewport={{ once: true }}  
-                        className=" text-sm md:text-base lg:text-xl text-zuccini pt-3 lg:pt-6  text-center lg:px-0">
-                            Send us a message if you have any questions about working with ScalePass.
-                        </motion.p>
 
 
                         {/* form */}
                         <motion.form
-                         initial={{ opacity: 0, y: 100 }}
-                         whileInView={{ opacity: 1, y: 0 }}
-                         transition={{ duration: 1.5, delay:0.4 }}
-                         viewport={{ once: true }}  
-                        action="" className=" mt-20 border-2  border-blue-chill rounded-2xl p-5 ">
+                            initial={{ opacity: 0, y: 100 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 1.5, delay: 0.4 }}
+                            viewport={{ once: true }}
+                            action="" className=" mt-20 border-2  border-blue-chill rounded-2xl p-5 ">
 
 
                             {/* input div */}
