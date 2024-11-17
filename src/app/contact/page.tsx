@@ -40,9 +40,10 @@ export default function Contactus() {
                         </Link>
                     </div>
                 </div>
-                <div className=" flex flex-col-reverse md:flex-row max-w-7xl mx-auto ">
+                <div className=" max-w-7xl mx-5 xl:mx-auto  ">
                     {/* left div */}
-                    <div className=" pb-10 pt-16  md:py-10 lg:!py-20 px-5 md:px-8 lg:!pr-20 w-full">
+                       <h3 className=" text-4xl text-center font-bold pt-20">Contact For Any Query</h3>
+                    <div className=" pb-10      w-full ">
 
 
                         {/* form */}

@@ -56,7 +56,7 @@ const courses = [
 
 const CourseSection = () => {
     return (
-        <section className=" bg-white pt-32 pb-20">
+        <section className=" bg-white pt-16 md:pt-32 pb-20">
             <div className=' relative bg-[url(/images/courses.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]'>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 {/* <TypewriterEffectSmooth words={words} /> */}
