@@ -18,7 +18,7 @@ export default function Footer() {
     return (
         <>
             <footer className="bg-[#111827] pb-9 md:pb-12  overflow-hidden">
-                <div className="max-w-7xl mx-5 xl:mx-auto">
+                <div className="max-w-7xl mx-2.5 xl:mx-auto">
                     <div className="flex justify-between py-14 md:py-20   md:flex-row flex-col gap-x-14">
                         <div className="w-auto xl:w-[60%] ">
                             <div className="flex justify-center md:justify-start">

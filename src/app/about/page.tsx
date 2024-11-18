@@ -48,7 +48,7 @@ const About = () => {
                 </div>
 
             </div>
-            <div className="max-w-7xl mx-2.5 xl:mx-auto">
+            <div className="">
                 {/* Header Section */}
                 {/* <motion.div
                     className="text-center mb-12"
@@ -69,7 +69,7 @@ const About = () => {
 
                 <AimSection />
                 <MissionSection />
-                <div className="py-16">
+                <div className="py-16 px-2.5">
 
 
 
@@ -109,7 +109,7 @@ const About = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {/* Example Team Member */}
                             <motion.div
-                                className="bg-gray-50 rounded-lg text-center"
+                                className="bg-gray-50 rounded-lg text-center py-5"
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.5, ease: "easeOut" }}
@@ -128,7 +128,7 @@ const About = () => {
                                 <p className="text-gray-500">Founder & CEO</p>
                             </motion.div>
                             <motion.div
-                                className="bg-gray-50 rounded-lg text-center"
+                                className="bg-gray-50 rounded-lg text-center py-5"
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.5, ease: "easeOut", delay: 0.1 }}
@@ -147,7 +147,7 @@ const About = () => {
                                 <p className="text-gray-500">Director of Education</p>
                             </motion.div>
                             <motion.div
-                                className="bg-gray-50 rounded-lg text-center"
+                                className="bg-gray-50 rounded-lg text-center py-5"
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}

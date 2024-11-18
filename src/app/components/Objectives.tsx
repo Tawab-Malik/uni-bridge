@@ -16,7 +16,19 @@ export default function Objectives() {
 
     return (
         <section className='bg-white py-12 md:py-24 overflow-hidden'>
-            <div className="flex flex-col xl:flex-row items-center gap-20  py-12  md:px-16 lg:px-24 max-w-7xl mx-2.5 xl:mx-auto">
+             <div className='mb-10 block md:hidden mx-2.5'>
+                        <motion.h2
+                            initial={{ y: 50 }}
+                            whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
+                            viewport={{ once: true, amount: 0.1 }}
+                            className='text-3xl md:text-4xl xl:text-5xl  font-bold  text-[#0D9488] text-center'>
+                            The Objectives
+                            {/* <AnimatedGradientText > */}
+
+                            {/* </AnimatedGradientText> */}
+                        </motion.h2>
+                    </div>
+            <div className="flex flex-col xl:flex-row items-center gap-20  py-12   lg:px-24 max-w-7xl mx-2.5 xl:mx-auto">
 
                 {/* Image Section */}
                 <motion.div
@@ -38,7 +50,7 @@ export default function Objectives() {
 
                 {/* Objectives Content */}
                 <div className="w-full xl:w-1/2">
-                    <div className='mb-16'>
+                    <div className='mb-16 hidden md:block'>
                         <motion.h2
                             initial={{ y: 50 }}
                             whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}

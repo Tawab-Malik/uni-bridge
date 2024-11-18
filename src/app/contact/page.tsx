@@ -29,7 +29,7 @@ export default function Contactus() {
                         Send us a message if you have any questions about working with ScalePass.
                     </p>
 
-                    <div className=" flex flex-col md:flex-row gap-5 justify-center mx-5 md:mx-0 mt-10 relative">
+                    <div className=" flex flex-col md:flex-row gap-5 justify-center mx-2.5 md:mx-0 mt-10 relative">
                         <Link href="mailto:zaintariq6780@icloudl.com" className=" flex justify-center bg-[#ea580c] w-auto items-center gap-x-2 text-white rounded-lg py-3 px-5" >
                             <MdEmail className=" h-6 w-6 text-white" />
                             <p className=" text-sm md:text-base">Email: zaintariq6780@icloudl.com</p>
@@ -40,9 +40,9 @@ export default function Contactus() {
                         </Link>
                     </div>
                 </div>
-                <div className=" max-w-7xl mx-5 xl:mx-auto  ">
+                <div className=" max-w-7xl mx-2.5 xl:mx-auto  ">
                     {/* left div */}
-                       <h3 className=" text-4xl text-center font-bold pt-20">Contact For Any Query</h3>
+                       <h3 className=" text-2xl md:text-4xl text-center font-bold pt-20">Contact For Any Query</h3>
                     <div className=" pb-10      w-full ">
 
 
@@ -52,7 +52,7 @@ export default function Contactus() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1.5, delay: 0.4 }}
                             viewport={{ once: true }}
-                            action="" className=" mt-20 border-2  border-blue-chill rounded-2xl p-5 ">
+                            action="" className=" mt-12 md:mt-20 border-2  border-blue-chill rounded-2xl px-2.5 py-5 md:p-5 ">
 
 
                             {/* input div */}

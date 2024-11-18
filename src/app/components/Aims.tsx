@@ -73,7 +73,7 @@ const AimSection = () => {
 
     return (
         <section className="bg-white py-12 md:py-16 overflow-hidden">
-            <div className="container mx-auto px-2.5 md:px-6">
+            <div className="container mx-auto px-2.5 lg:px-6">
                 <motion.h2
                     initial={{ y: 50 }}
                     whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
@@ -92,7 +92,7 @@ const AimSection = () => {
                 </motion.p>
                 <Slider {...settings} className="h-full">
                     {aims.map((aim, index) => (
-                        <div key={index} className="px-6 h-full">
+                        <div key={index} className="px-2 lg:px-6 h-full">
                             <div className="grid grid-cols-1 bg-white rounded-lg   h-[440px] md:h-[470px]  xl:h-full">
                                 <Image
                                     src={aim.image}
