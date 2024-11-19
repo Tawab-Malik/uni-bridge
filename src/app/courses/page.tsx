@@ -9,7 +9,7 @@ const courses = [
         id: 1,
         title: "Web Development",
         description: "Learn the fundamentals of HTML, CSS, and JavaScript.",
-        image: "https://via.placeholder.com/150",
+        image: "/images/courses/web.jpg",
         price: "149.99",
         rating: 4.5,
         ratingCount: 120,
@@ -18,7 +18,7 @@ const courses = [
         id: 2,
         title: "Data Science",
         description: "Dive into data analysis, visualization, and machine learning.",
-        image: "https://via.placeholder.com/150",
+        image: "/images/courses/data.jpg",
         price: "149.99",
         rating: 4.8,
         ratingCount: 95,
@@ -27,7 +27,7 @@ const courses = [
         id: 3,
         title: "Graphic Design",
         description: "Master tools like Photoshop and Illustrator.",
-        image: "https://via.placeholder.com/150",
+        image: "/images/courses/design1.jpg",
         price: "149.99",
         rating: 4.5,
         ratingCount: 120,
@@ -37,7 +37,7 @@ const courses = [
         id: 4,
         title: "Mobile Development",
         description: "Build mobile apps using React Native and Flutter.",
-        image: "https://via.placeholder.com/150",
+        image: "/images/courses/app.jpg",
         price: "149.99",
         rating: 4.8,
         ratingCount: 95,
@@ -46,7 +46,7 @@ const courses = [
         id: 5,
         title: "Graphic Design",
         description: "Master tools like Photoshop and Illustrator.",
-        image: "https://via.placeholder.com/150",
+        image: "/images/courses/design2.jpg",
         price: "149.99",
         rating: 4.5,
         ratingCount: 120,
@@ -60,7 +60,7 @@ const CourseSection = () => {
             <div className=' relative bg-[url(/images/courses.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]'>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 {/* <TypewriterEffectSmooth words={words} /> */}
-                <h2 className=' relative text-4xl md:text-5xl text-center font-bold text-blue-chill '>Courses</h2>
+                <h2 className=' relative text-3xl md:text-4xl xl:text-5xl text-center font-bold text-blue-chill '>Courses</h2>
                 <p
                     className="text-sm md:text-xl pt-5 md:pt-8 text-white text-center relative px-5 md:px-0"
                 >

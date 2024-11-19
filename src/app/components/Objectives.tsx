@@ -35,7 +35,7 @@ export default function Objectives() {
                     className="relative w-full xl:w-1/2 flex items-center justify-center xl:justify-between mb-8 md:mb-0"
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 1.5 }}
+                    transition={{ duration: 1.0 }}
                     viewport={{ once: true }}  >
                     <div className=" rounded-full  flex justify-center items-center">
                         <Image
@@ -71,7 +71,7 @@ export default function Objectives() {
                                 className="flex items-start gap-6 mb-6"
                                 initial={{ opacity: 0, x: 50 }}
                                 whileInView={{ opacity: 1, x: 0 }}
-                                transition={{ delay: index * 0.2, duration: 0.5 }}
+                                transition={{ delay: index * 0.1, duration: 0.2 }}
                                 viewport={{ once: true }}
                             >
                                 <span className="flex items-center justify-center bg-[#0D9488] text-white rounded-full w-10 min-w-10 h-10 font-semibold text-center">

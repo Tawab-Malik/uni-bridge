@@ -45,7 +45,7 @@ const MissionSection = () => {
                         whileHover={{ scale: 1 }}
                         transition={{ duration: 0.3 }}
                     >
-                        <Image src={src} alt={`Mission Image ${index + 1}`} height={1100} width={800} className="w-full h-full object-cover" />
+                        <Image src={src} alt={`Mission Image ${index + 1}`} height={1100} width={800} className=" w-full h-[400px] md:h-full object-cover" />
                     </motion.div>
                 ))}
             </div>

@@ -23,7 +23,7 @@ const About = () => {
             <div className=' relative bg-[url(/images/about.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]'>
             <div className="absolute inset-0 bg-black opacity-50"></div>
                 {/* <TypewriterEffectSmooth words={words} /> */}
-                <h2 className=' relative text-4xl md:text-5xl text-center font-bold text-blue-chill '>About Us</h2>
+                <h2 className=' relative text-3xl md:text-4xl xl:text-5xl text-center font-bold text-blue-chill '>About Us</h2>
                 <p
                     className="text-sm md:text-xl pt-5 md:pt-8 text-white text-center relative px-5 md:px-0"
                     
@@ -94,10 +94,10 @@ const About = () => {
 
                     {/* Team Section */}
                     <motion.div
-                        className="bg-white shadow-lg rounded-xl border-2 border-blue-chill-400 p-5 md:p-8"
+                        className="bg-white shadow-lg rounded-xl border-2 border-blue-chill-400 p-5 md:p-8 max-w-7xl mx-2.5 xl:mx-auto"
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: 0.6, ease: "easeOut" }}
+                        transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
                         viewport={{ once: true }}
                     >
                         <h2 className="text-3xl font-semibold text-[#0D9488] mb-4 text-center">
@@ -117,7 +117,7 @@ const About = () => {
                             >
                                 <Image
                                     className="w-24 h-24 mx-auto rounded-full mb-4"
-                                    src="https://via.placeholder.com/150"
+                                    src="/images/aims/man1.jpg"
                                     alt="Team Member"
                                     height={200}
                                     width={200}
@@ -136,13 +136,13 @@ const About = () => {
                             >
                                 <Image
                                     className="w-24 h-24 mx-auto rounded-full mb-4"
-                                    src="https://via.placeholder.com/150"
+                                    src="/images/aims/man2.jpg"
                                     alt="Team Member"
                                     height={200}
                                     width={200}
                                 />
                                 <h3 className="text-xl font-semibold text-[#F97316]">
-                                    Maria Gomez
+                                    Jhon Richard
                                 </h3>
                                 <p className="text-gray-500">Director of Education</p>
                             </motion.div>
@@ -155,7 +155,7 @@ const About = () => {
                             >
                                 <Image
                                     className="w-24 h-24 mx-auto rounded-full mb-4"
-                                    src="https://via.placeholder.com/150"
+                                    src="/images/aims/man3.jpg"
                                     alt="Team Member"
                                     height={200}
                                     width={200}

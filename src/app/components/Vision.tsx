@@ -36,7 +36,7 @@ export default function VisionSection() {
                         viewport={{ once: true }}
                         className="bg-white  shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] rounded-lg"
                     >
-                        <Image src="/images/features/vision.jpg" width={500} height={300} alt="Quality Education" className="mx-auto  rounded-t-lg" />
+                        <Image src="/images/features/quality.jpg" width={500} height={500} alt="Quality Education" className="mx-auto h-auto md:h-[200px]  rounded-t-lg" />
                         <div className="px-5 py-5">
                             <h3 className="text-xl font-semibold text-black mb-2">Quality Education</h3>
                             <p className="text-[#4b5563]">
@@ -53,7 +53,7 @@ export default function VisionSection() {
                         viewport={{ once: true }}
                         className="bg-white  shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] rounded-lg"
                     >
-                        <Image src="/images/features/vision.jpg" width={500} height={300} alt="Quality Education" className="mx-auto  rounded-t-lg" />
+                        <Image src="/images/features/access.jpg" width={1000} height={1000} alt="Quality Education" className="mx-auto h-auto md:h-[200px]  rounded-t-lg" />
                         <div className=" px-5 py-5">
                         <h3 className="text-xl font-semibold text-black mb-2">Accessibility for All</h3>
                         <p className="text-[#4b5563]">
@@ -70,7 +70,7 @@ export default function VisionSection() {
                         viewport={{ once: true }}
                         className="bg-white  shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] rounded-lg"
                     >
-                        <Image src="/images/features/vision.jpg" width={500} height={300} alt="Quality Education" className="mx-auto  rounded-t-lg" />
+                        <Image src="/images/features/fostering.jpg" width={1000} height={1000} alt="Quality Education" className="mx-auto  h-auto md:h-[200px] rounded-t-lg" />
                         <div className="px-5 py-5">
                         <h3 className="text-xl font-semibold text-black mb-2">Fostering Innovation</h3>
                         <p className="text-[#4b5563]">
@@ -87,7 +87,7 @@ export default function VisionSection() {
                         viewport={{ once: true }}
                         className="bg-white shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] rounded-lg"
                     >
-                        <Image src="/images/features/vision.jpg" width={500} height={300} alt="Quality Education" className="mx-auto rounded-t-lg" />
+                        <Image src="/images/features/global.jpg" width={1000} height={1000} alt="Quality Education" className="mx-auto h-auto md:h-[200px] rounded-t-lg" />
                         <div className="px-5 py-5">
                         <h3 className="text-xl font-semibold text-black mb-2">Global Community</h3>
                         <p className="text-[#4b5563]">
@@ -104,7 +104,7 @@ export default function VisionSection() {
                         viewport={{ once: true }}
                         className="bg-white shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] rounded-lg"
                     >
-                        <Image src="/images/features/vision.jpg" width={500} height={300} alt="Quality Education" className="mx-auto rounded-t-lg" />
+                        <Image src="/images/features/advanced.jpg" width={1000} height={1000} alt="Quality Education" className="mx-auto h-auto md:h-[200px] rounded-t-lg" />
                         <div className=" px-5 py-5">
                             <h3 className="text-xl font-semibold text-black mb-2">Advanced Technology</h3>
                             <p className="text-[#4b5563]">
@@ -121,7 +121,7 @@ export default function VisionSection() {
                         viewport={{ once: true }}
                         className="bg-white  shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] rounded-lg"
                     >
-                        <Image src="/images/features/vision.jpg" width={500} height={300} alt="Quality Education" className="mx-auto  rounded-t-lg" />
+                        <Image src="/images/features/future.jpg" width={1000} height={1000} alt="Quality Education" className="mx-auto h-auto md:h-[200px] rounded-t-lg" />
                         <div className=" px-5 py-5">
                             <h3 className="text-xl font-semibold text-black mb-2">Sustainable Future</h3>
                             <p className="text-[#4b5563]">

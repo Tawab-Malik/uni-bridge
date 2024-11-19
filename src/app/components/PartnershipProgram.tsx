@@ -11,25 +11,25 @@ const PartnershipProgram = () => {
                 <div className=" text-center">
                     {/* Header Section */}
                     <motion.h2
-                    initial={{ opacity: 0, y: 100 }}
+                    initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1.5 }}
+                    transition={{ duration: 1.0 }}
                     viewport={{ once: true }}  
                     className="text-3xl md:text-4xl xl:text-5xl  font-bold  text-[#0D9488] text-center">
                         Partnership Program
                     </motion.h2>
                     <motion.p
-                    initial={{ opacity: 0, y: 100 }}
+                    initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1.5, delay: 0.1 }}
+                    transition={{ duration: 1.0, delay: 0.1 }}
                     viewport={{ once: true }}  
                     className="mt-2 text-lg md:text-2xl leading-9 pt-5 font-semibold text-black ">
                         Empowering Education Together
                     </motion.p>
                     <motion.p
-                    initial={{ opacity: 0, y: 100 }}
+                    initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1.5, delay: 0.2 }}
+                    transition={{ duration: 1.0, delay: 0.2 }}
                     viewport={{ once: true }}  
                     className="mt-4 max-w-2xl text-lg text-[#4b5563] mx-auto">
                         Join us in shaping the future of education by collaborating on
@@ -43,7 +43,7 @@ const PartnershipProgram = () => {
                     <motion.div
                      initial={{ opacity: 0, x: -100 }}
                      whileInView={{ opacity: 1, x: 0 }}
-                     transition={{ duration: 1.5 }}
+                     transition={{ duration: 1.0 }}
                      viewport={{ once: true }}
                     className="bg-indigo-50 rounded-lg p-6 text-center hover:shadow-[0_10px_18px_15px_rgba(13,148,136,0.3)] duration-500 shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] h-full">
                         <div className=" flex justify-center items-center pb-2">
@@ -60,9 +60,9 @@ const PartnershipProgram = () => {
 
                     {/* Benefit 2 */}
                     <motion.div
-                     initial={{ opacity: 0, y: 100 }}
+                     initial={{ opacity: 0, y: 50 }}
                      whileInView={{ opacity: 1, y: 0 }}
-                     transition={{ duration: 1.5 }}
+                     transition={{ duration: 1.0 }}
                      viewport={{ once: true }}
                     className="bg-indigo-50 rounded-lg p-6 text-center hover:shadow-[0_10px_18px_15px_rgba(13,148,136,0.3)] duration-500 shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] h-full">
                         <div className=" flex justify-center items-center pb-2">
@@ -81,7 +81,7 @@ const PartnershipProgram = () => {
                     <motion.div
                      initial={{ opacity: 0, x: 100 }}
                      whileInView={{ opacity: 1, x: 0 }}
-                     transition={{ duration: 1.5 }}
+                     transition={{ duration: 1.0 }}
                      viewport={{ once: true }}
                     className="bg-indigo-50 rounded-lg p-6 text-center hover:shadow-[0_10px_18px_15px_rgba(13,148,136,0.3)] duration-500 shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] h-full">
                         <div className=" flex justify-center items-center pb-2">
@@ -99,9 +99,9 @@ const PartnershipProgram = () => {
 
                 {/* Call to Action Section */}
                 <motion.div
-                 initial={{ opacity: 0, y: 100 }}
+                 initial={{ opacity: 0, y: 50 }}
                  whileInView={{ opacity: 1, y: 0 }}
-                 transition={{ duration: 1.5 }}
+                 transition={{ duration: 1.0 }}
                  viewport={{ once: true }}
                 className="mt-16 max-w-3xl mx-auto text-center">
                     <h4 className="text-2xl font-bold text-[#0D9488]">

@@ -18,7 +18,7 @@ export default function Herosection() {
 
     return (
         <>
-            <section className="bg-[url(/images/herosection/herobg.jpg)] bg-cover bg-center py-32 xl:py-[24rem]">
+            <section className="bg-[url(/images/herosection/herobg.jpg)] bg-cover bg-center pt-32 pb-16 md:py-32 xl:py-[24rem]">
                 <div className="max-w-7xl mx-2.5 xl:mx-auto text-center">
                     <TypewriterEffectSmooth words={words} />
 

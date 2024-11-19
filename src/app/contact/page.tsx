@@ -19,7 +19,7 @@ export default function Contactus() {
                 <div className=" relative bg-[url(/images/contact.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]">
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <h2
-                        className=" text-4xl lg:text-5xl text-blue-chill font-bold text-center relative">Contact Us</h2>
+                        className=" text-3xl md:text-4xl lg:text-5xl text-blue-chill font-bold text-center relative">Contact Us</h2>
                     <p
                         // initial={{ opacity: 0, y: 100 }}
                         // whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ export default function Contactus() {
                         <motion.form
                             initial={{ opacity: 0, y: 100 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1.5, delay: 0.4 }}
+                            transition={{ duration: 1.0, delay: 0.1 }}
                             viewport={{ once: true }}
                             action="" className=" mt-12 md:mt-20 border-2  border-blue-chill rounded-2xl px-2.5 py-5 md:p-5 ">
 
