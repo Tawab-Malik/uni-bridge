@@ -14,7 +14,7 @@ export default function Contactus() {
 
     return (
         <>
-            <section className=" text-zuccini bg-white pt-24">
+            <section className=" text-zuccini bg-white pt-20">
 
                 <div className=" relative bg-[url(/images/contact.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]">
                     <div className="absolute inset-0 bg-black opacity-50"></div>

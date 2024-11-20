@@ -25,13 +25,13 @@ const Header = () => {
     }, [isOpen]);
 
     return (
-        <header className=" fixed w-full  bg-white  px-4 py-1 md:p-4 z-20  ">
+        <header className=" fixed w-full  bg-white  px-4 py-1 md:p-2 z-20  ">
             <div className='flex  items-center justify-between max-w-7xl mx-auto'>
                 {/* Logo */}
                 <div className="text-black text-xl md:text-3xl font-bold">
                     <Link href="/" className=" text-[#0d9488] font-bold" >
                         {/* UniBridge Learning */}
-                        <Image src="/images/logo.png" alt="logo" height={70} width={70} />
+                        <Image src="/images/logo.png" alt="logo" height={500} className=' h-auto xl:h-[60px] w-auto xl:w-[70px]' width={500} />
                     </Link>
 
                 </div>
