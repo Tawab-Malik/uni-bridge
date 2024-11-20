@@ -28,7 +28,7 @@ export default function Herosection() {
                         // whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
                         // viewport={{ once: true, amount: 0.1 }}
                     >
-                        through education, development, and exchange since 1932.
+                        through education, development, and exchange since 1990.
                     </p>
 
 

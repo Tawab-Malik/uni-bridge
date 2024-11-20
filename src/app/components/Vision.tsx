@@ -14,7 +14,7 @@ export default function VisionSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 viewport={{ once: true }}
-                className="text-3xl md:text-4xl xl:text-5xl font-bold text-[#0D9488] mb-6">
+                className="text-3xl md:text-4xl xl:text-5xl font-bold text-white mb-6">
                     Our Vision for a Brighter Future
                 </motion.h2>
                 <motion.p
