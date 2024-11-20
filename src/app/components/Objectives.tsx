@@ -15,7 +15,7 @@ export default function Objectives() {
     ];
 
     return (
-        <section className='bg-white py-12 md:py-24 overflow-hidden'>
+        <section className='bg-white py-12 md:py-14 overflow-hidden'>
              <div className='mb-10 block md:hidden mx-2.5'>
                         <motion.h2
                             initial={{ y: 50 }}
@@ -28,7 +28,7 @@ export default function Objectives() {
                             {/* </AnimatedGradientText> */}
                         </motion.h2>
                     </div>
-            <div className="flex flex-col xl:flex-row items-center gap-20  py-12   lg:px-24 max-w-7xl mx-2.5 xl:mx-auto">
+            <div className="flex flex-col xl:flex-row items-center gap-20    lg:px-24 max-w-7xl mx-2.5 xl:mx-auto">
 
                 {/* Image Section */}
                 <motion.div

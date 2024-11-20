@@ -23,7 +23,7 @@ export default function Footer() {
                         <div className="w-auto xl:w-[60%] ">
                             <div className="flex justify-center md:justify-start">
                             <Link href="/" className="">
-                                <Image src="/images/logo.png" alt="logo" width="243" height="48" className="h-[130px] xl:h-[150px] w-auto"></Image>
+                                <Image src="/images/logo.png" alt="logo" width={450} height={500} className="h-[130px] xl:h-[150px] w-auto"></Image>
                             </Link>
                             </div>
                            
