@@ -6,7 +6,7 @@ export default function VisionSection() {
     // const themeColor = "dark";
 
     return (
-        <section className="bg-gradient-to-b from-blue-50 to-white py-16 xl:py-24" id="about">
+        <section className="bg-[#f96618] py-16 xl:py-24" id="about">
             <div className="max-w-6xl mx-auto px-2.5 lg:px-8 text-center">
           
                 <motion.h2
@@ -22,7 +22,7 @@ export default function VisionSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut", delay:0.2 }}
                 viewport={{ once: true }}
-                className="text-lg md:text-xl text-[#4b5563] max-w-2xl mx-auto mb-12">
+                className="text-lg md:text-xl text-white max-w-2xl mx-auto mb-12">
                     Empowering learners around the world with accessible, high-quality education that fosters curiosity, creativity, and innovation for a sustainable tomorrow.
                 </motion.p>
            
