@@ -31,7 +31,7 @@ const Header = () => {
                 <div className="text-black text-xl md:text-3xl font-bold">
                     <Link href="/" className=" text-[#0d9488] font-bold" >
                         {/* UniBridge Learning */}
-                        <Image src="/images/logo.png" alt="logo" height={500} className=' h-[50px] xl:h-[60px] w-[60px] xl:w-[70px]' width={500} />
+                        <Image src="/images/logo.png" alt="logo" height={500} className='   h-[50px] xl:h-[60px] w-[60px] xl:w-[70px]' width={500} />
                     </Link>
 
                 </div>
