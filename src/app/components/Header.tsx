@@ -31,7 +31,7 @@ const Header = () => {
                 <div className="text-black text-xl md:text-3xl font-bold">
                     <Link href="/" className=" text-[#0d9488] font-bold" >
                         {/* UniBridge Learning */}
-                        <Image src="/images/logo.png" alt="logo" height={500} className=' h-auto xl:h-[60px] w-auto xl:w-[70px]' width={500} />
+                        <Image src="/images/logo.png" alt="logo" height={500} className='   h-[50px] xl:h-[60px] w-[60px] xl:w-[70px]' width={500} />
                     </Link>
 
                 </div>
@@ -73,20 +73,20 @@ const Header = () => {
                 {/* Mobile Navigation Dropdown with Smooth Transition */}
                 <nav
                     id="mobileMenu"
-                    className={`absolute top-16 pb-5 px-5 left-0 w-full z-50 bg-white dark:bg-black-pearl md:hidden transform  rounded-b-2xl transition-all duration-300 ease-in-out ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full pointer-events-none'
+                    className={`absolute top-14 pb-5 px-5 left-0 w-full z-50 bg-white dark:bg-black-pearl md:hidden transform  rounded-b-2xl transition-all duration-300 ease-in-out ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-full pointer-events-none'
                         }`}
                 >
                     <div className="flex md:hidden flex-col text-[#1f2937] items-center space-y-4 py-5 text-lg font-medium ">
-                        <Link href="/" className="text-[#1f2937]">
+                        <Link href="/" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
                             Home
                         </Link>
-                        <Link href="/about" className="text-[#1f2937]">
+                        <Link href="/about" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
                             About
                         </Link>
-                        <Link href="/courses" className="text-[#1f2937]">
+                        <Link href="/courses" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
                             Courses
                         </Link>
-                        <Link href="/contact" className="text-[#1f2937]">
+                        <Link href="/contact" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
                             Contact
                         </Link>
                     </div>
