@@ -10,7 +10,7 @@ const courses = [
         title: "Web Development",
         description: "Learn the fundamentals of HTML, CSS, and JavaScript.",
         image: "/images/courses/web.jpg",
-        price: "149.99",
+        price: "00",
         rating: 4.5,
         ratingCount: 120,
     },
@@ -19,7 +19,7 @@ const courses = [
         title: "Data Science",
         description: "Dive into data analysis, visualization, and machine learning.",
         image: "/images/courses/data.jpg",
-        price: "149.99",
+        price: "00",
         rating: 4.8,
         ratingCount: 95,
     },
@@ -28,7 +28,7 @@ const courses = [
         title: "Graphic Design",
         description: "Master tools like Photoshop and Illustrator.",
         image: "/images/courses/design1.jpg",
-        price: "149.99",
+        price: "00",
         rating: 4.5,
         ratingCount: 120,
         
@@ -38,7 +38,7 @@ const courses = [
         title: "Mobile Development",
         description: "Build mobile apps using React Native and Flutter.",
         image: "/images/courses/app.jpg",
-        price: "149.99",
+        price: "00",
         rating: 4.8,
         ratingCount: 95,
     },
@@ -47,7 +47,7 @@ const courses = [
         title: "Graphic Design",
         description: "Master tools like Photoshop and Illustrator.",
         image: "/images/courses/design2.jpg",
-        price: "149.99",
+        price: "00",
         rating: 4.5,
         ratingCount: 120,
         
@@ -121,7 +121,7 @@ const CourseSection = () => {
                             </h3>
                             <p className="text-gray-600 mt-2">{course.description}</p>
                             <p className="text-lg font-bold text-[#ea580c] mt-4">
-                                Price: ${course.price}
+                                Price: £{course.price}
                             </p>
                             <div className="flex items-center mt-2">
                                 <span className="text-yellow-500 text-lg font-semibold">
