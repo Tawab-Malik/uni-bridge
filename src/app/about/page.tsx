@@ -19,8 +19,8 @@ const About = () => {
     //     { text: "world" },
     // ];
     return (
-        <section className="bg-white pt-20 ">
-            <div className=' relative bg-[url(/images/about.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]'>
+        <section className="bg-[#f96618]  ">
+            <div className=' relative bg-[url(/images/about.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px] pt-20'>
             <div className="absolute inset-0 bg-black opacity-50"></div>
                 {/* <TypewriterEffectSmooth words={words} /> */}
                 <h2 className=' relative text-3xl md:text-4xl xl:text-5xl text-center font-bold text-blue-chill '>About Us</h2>
@@ -116,7 +116,7 @@ const About = () => {
                                 viewport={{ once: true }}
                             >
                                 <Image
-                                    className="w-24 h-24 mx-auto rounded-full mb-4"
+                                    className="w-24 h-24 mx-auto border-2 border-[#f96618] rounded-full mb-4"
                                     src="/images/aims/man1.jpg"
                                     alt="Team Member"
                                     height={200}
@@ -135,7 +135,7 @@ const About = () => {
                                 viewport={{ once: true }}
                             >
                                 <Image
-                                    className="w-24 h-24 mx-auto rounded-full mb-4"
+                                    className="w-24 h-24 mx-auto rounded-full border-2 border-[#f96618] mb-4"
                                     src="/images/aims/man2.jpg"
                                     alt="Team Member"
                                     height={200}
@@ -154,7 +154,7 @@ const About = () => {
                                 viewport={{ once: true }}
                             >
                                 <Image
-                                    className="w-24 h-24 mx-auto rounded-full mb-4"
+                                    className="w-24 h-24 mx-auto rounded-full border-2 border-[#f96618] mb-4"
                                     src="/images/aims/man3.jpg"
                                     alt="Team Member"
                                     height={200}

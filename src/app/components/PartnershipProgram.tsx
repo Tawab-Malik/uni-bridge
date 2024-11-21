@@ -6,7 +6,7 @@ import Link from 'next/link';
 import React from 'react';
 const PartnershipProgram = () => {
     return (
-        <section className="bg-white py-16 lg:px-8 overflow-hidden">
+        <section className="bg-[#f96618] py-16 lg:px-8 overflow-hidden">
             <div className="max-w-7xl mx-2.5 xl:mx-auto">
                 <div className=" text-center">
                     {/* Header Section */}
@@ -15,7 +15,7 @@ const PartnershipProgram = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                     viewport={{ once: true }}  
-                    className="text-3xl md:text-4xl xl:text-5xl  font-bold  text-[#0D9488] text-center">
+                    className="text-3xl md:text-4xl xl:text-5xl  font-bold  text-white text-center">
                         Partnership Program
                     </motion.h2>
                     <motion.p
@@ -31,7 +31,7 @@ const PartnershipProgram = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
                     viewport={{ once: true }}  
-                    className="mt-4 max-w-2xl text-lg text-[#4b5563] mx-auto">
+                    className="mt-4 max-w-2xl text-lg text-white mx-auto">
                         Join us in shaping the future of education by collaborating on
                         innovative learning solutions, resources, and programs.
                     </motion.p>
@@ -104,15 +104,15 @@ const PartnershipProgram = () => {
                  transition={{ duration: 0.5 }}
                  viewport={{ once: true }}
                 className="mt-16 max-w-3xl mx-auto text-center">
-                    <h4 className="text-2xl font-bold text-[#0D9488]">
+                    <h4 className="text-2xl font-bold text-white">
                         Ready to Make a Difference?
                     </h4>
-                    <p className="mt-4 text-lg text-[#4b5563]">
+                    <p className="mt-4 text-lg text-white">
                         Join our partnership program and help us create impactful educational
                         experiences for learners everywhere.
                     </p>
                     <Link href='/contact' >
-                        <Button className="mt-8  px-6 h-auto py-3 text-sm  md:text-lg font-semibold rounded-xl bg-orange-600 text-white hover:bg-orange-800 duration-500">
+                        <Button className="mt-8 shadow-[0_10px_18px_15px_rgba(0,0,0,0.2)]  px-6 h-auto py-3 text-sm  md:text-lg font-semibold rounded-xl bg-orange-600 text-white hover:bg-orange-800 duration-500">
                             Become a Partner
                         </Button>
                     </Link>

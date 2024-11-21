@@ -14,9 +14,9 @@ export default function Contactus() {
 
     return (
         <>
-            <section className=" text-zuccini bg-white pt-20">
+            <section className=" text-zuccini bg-[#f96618] ">
 
-                <div className=" relative bg-[url(/images/contact.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]">
+                <div className=" relative bg-[url(/images/contact.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px] pt-20">
                     <div className="absolute inset-0 bg-black opacity-50"></div>
                     <h2
                         className=" text-3xl md:text-4xl lg:text-5xl text-blue-chill font-bold text-center relative">Contact Us</h2>
@@ -42,7 +42,7 @@ export default function Contactus() {
                 </div>
                 <div className=" max-w-7xl mx-2.5 xl:mx-auto  ">
                     {/* left div */}
-                       <h3 className=" text-2xl md:text-4xl text-center font-bold pt-20">Contact For Any Query</h3>
+                       <h3 className=" text-2xl md:text-4xl text-center text-white font-bold pt-20">Contact For Any Query</h3>
                     <div className=" pb-10      w-full ">
 
 
@@ -59,7 +59,7 @@ export default function Contactus() {
                             <div className="flex flex-col md:flex-row  gap-4 w-full">
                                 {/*First Name */}
                                 <div className=" bg-none   rounded-xl  w-full">
-                                    <label htmlFor="first name" className=" text-base md:text-sm xl:text-xl font-semibold">First Name <span className=" text-blue-chill ">*</span></label>
+                                    <label htmlFor="first name" className=" text-base text-white  md:text-sm xl:text-xl font-semibold">First Name <span className=" text-blue-chill ">*</span></label>
                                     <Input size='lg' isRequired type="text" placeholder="Ex: John" className=" !hover:bg-opacity-0 mt-2    !py-0  !w-full "
                                         classNames={{
                                             inputWrapper: '!rounded-lg !shadow-none border border-blue-chill rounded-2xl group-data-[focus=true]:bg-[#d3d3d3] bg-white w-full !py-2 h-auto data-[hover=true]:bg-white data-[hover=true]:bg-opacity-100',
@@ -70,7 +70,7 @@ export default function Contactus() {
                                 </div>
                                 {/*Last Name */}
                                 <div className=" bg-none   rounded-xl w-full ">
-                                    <label htmlFor="last name" className=" text-base md:text-sm xl:text-xl font-semibold">Last Name <span className=" text-blue-chill ">*</span></label>
+                                    <label htmlFor="last name" className=" text-base text-white  md:text-sm xl:text-xl font-semibold">Last Name <span className=" text-blue-chill ">*</span></label>
                                     <Input size='lg' isRequired type="text" placeholder="Ex: Wick" className=" !hover:bg-opacity-0 mt-2    !py-0  !w-full "
                                         classNames={{
                                             inputWrapper: '!rounded-lg !shadow-none border border-blue-chill rounded-2xl group-data-[focus=true]:bg-[#d3d3d3] bg-white w-full !py-2 h-auto data-[hover=true]:bg-white data-[hover=true]:bg-opacity-100',
@@ -84,7 +84,7 @@ export default function Contactus() {
                             <div className=" flex gap-4 xl:flex-row flex-col mt-3 w-full">
                                 {/*Phone number */}
                                 <div className=" bg-none   rounded-xl w-full ">
-                                    <label htmlFor="number" className=" text-base md:text-sm xl:text-xl font-semibold">Phone Number <span className=" text-blue-chill ">*</span></label>
+                                    <label htmlFor="number" className=" text-base text-white  md:text-sm xl:text-xl font-semibold">Phone Number <span className=" text-blue-chill ">*</span></label>
                                     <Input size='lg' isRequired type="number" placeholder="Ex: 123 4567 891" className=" !hover:bg-opacity-0 mt-2    !py-0  !w-full "
                                         classNames={{
                                             inputWrapper: '!rounded-lg !shadow-none border border-blue-chill rounded-2xl group-data-[focus=true]:bg-[#d3d3d3] bg-white w-full !py-2 h-auto data-[hover=true]:bg-white data-[hover=true]:bg-opacity-100',
@@ -95,7 +95,7 @@ export default function Contactus() {
                                 </div>
                                 {/*Last Name */}
                                 <div className=" bg-none   rounded-xl w-full ">
-                                    <label htmlFor="email" className=" text-base md:text-sm xl:text-xl font-semibold">Email Address <span className=" text-blue-chill ">*</span></label>
+                                    <label htmlFor="email" className=" text-base text-white  md:text-sm xl:text-xl font-semibold">Email Address <span className=" text-blue-chill ">*</span></label>
                                     <Input size='lg' isRequired type="email" placeholder="Ex: johnwick@gmail.com" className=" !hover:bg-opacity-0 mt-2    !py-0  !w-full "
                                         classNames={{
                                             inputWrapper: '!rounded-lg !shadow-none border border-blue-chill rounded-2xl group-data-[focus=true]:bg-[#d3d3d3] bg-white w-full !py-2 h-auto data-[hover=true]:bg-white data-[hover=true]:bg-opacity-100',
@@ -108,7 +108,7 @@ export default function Contactus() {
                             {/* text area */}
 
                             <div className=" bg-none   rounded-xl mt-4  ">
-                                <label htmlFor="name" className=" text-base md:text-sm xl:text-xl font-semibold">Message</label>
+                                <label htmlFor="name" className=" text-base text-white  md:text-sm xl:text-xl font-semibold">Message</label>
                                 <Textarea minRows={5} isRequired type="text" placeholder="Please describe your message here..." className=" !hover:bg-opacity-0 mt-2 !text-sm    !py-0  !w-full "
                                     classNames={{
                                         inputWrapper: '!rounded-lg !shadow-none border border-blue-chill rounded-2xl group-data-[focus=true]:bg-[#d3d3d3] bg-white w-full !py-2 h-auto data-[hover=true]:bg-white data-[hover=true]:bg-opacity-100',
@@ -120,7 +120,7 @@ export default function Contactus() {
 
                             {/* checkbox */}
                             <div>
-                                <Checkbox size="sm" className=" gap-x-3 md:gap-x-2 pt-4 text-black  text-xs xl:!text-sm " classNames={{ wrapper: " !bg-[#d3d3d3]", label: " text-xs xl:!text-base" }}  >
+                                <Checkbox size="sm" className=" gap-x-3 md:gap-x-2 pt-4 text-white   text-xs xl:!text-sm " classNames={{ wrapper: " !bg-[#d3d3d3]", label: " text-xs text-white  xl:!text-base" }}  >
                                     By submitting this form, you agree to allow us to store and process your personal data in accordance with our Privacy Policy.
                                 </Checkbox>
                             </div>
