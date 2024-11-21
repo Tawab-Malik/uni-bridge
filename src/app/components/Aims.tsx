@@ -72,13 +72,13 @@ const AimSection = () => {
     ];
 
     return (
-        <section className="bg-white py-12 md:py-16 overflow-hidden">
+        <section className="bg-[#f96618] py-12 md:py-16 overflow-hidden">
             <div className="container mx-auto px-2.5 lg:px-6">
                 <motion.h2
                     initial={{ y: 50 }}
                     whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
                     viewport={{ once: true, amount: 0.1 }}
-                    className=" text-3xl md:text-4xl xl:text-5xl font-bold text-center text-[#0D9488] mb-5"
+                    className=" text-3xl md:text-4xl xl:text-5xl font-bold text-center text-white mb-5"
                 >
                     Our Aim
                 </motion.h2>
@@ -86,7 +86,7 @@ const AimSection = () => {
                     initial={{ y: 50 }}
                     whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
                     viewport={{ once: true, amount: 0.1 }}
-                    className="text-lg  text-center text-black mb-14"
+                    className="text-lg  text-center text-white mb-14"
                 >
                     Our Aims to fostering a transformative learning experience.
                 </motion.p>

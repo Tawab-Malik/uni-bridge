@@ -40,16 +40,16 @@ const Header = () => {
                 <div className=' flex gap-x-4'>
 
                     <div className="hidden md:flex text-lg text-[#1f2937] items-center space-x-8  font-medium">
-                        <Link href="/" className="text-[#1f2937] hover:text-[#0d9488] duration-500 ">
+                        <Link href="/" className="text-[#1f2937] hover:text-[#f96618] duration-500 ">
                             Home
                         </Link>
-                        <Link href="/about" className="text-[#1f2937] hover:text-[#0d9488] duration-500 ">
+                        <Link href="/about" className="text-[#1f2937] hover:text-[#f96618] duration-500 ">
                             About
                         </Link>
-                        <Link href="/courses" className="text-[#1f2937]  hover:text-[#0d9488] duration-500  ">
+                        <Link href="/courses" className="text-[#1f2937]  hover:text-[#f96618] duration-500  ">
                             Courses
                         </Link>
-                        <Link href="/contact" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
+                        <Link href="/contact" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
                             Contact
                         </Link>
                     </div>
@@ -77,16 +77,16 @@ const Header = () => {
                         }`}
                 >
                     <div className="flex md:hidden flex-col text-[#1f2937] items-center space-y-4 py-5 text-lg font-medium ">
-                        <Link href="/" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
+                        <Link href="/" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
                             Home
                         </Link>
-                        <Link href="/about" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
+                        <Link href="/about" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
                             About
                         </Link>
-                        <Link href="/courses" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
+                        <Link href="/courses" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
                             Courses
                         </Link>
-                        <Link href="/contact" className="text-[#1f2937]  hover:text-[#0d9488] duration-500 ">
+                        <Link href="/contact" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
                             Contact
                         </Link>
                     </div>

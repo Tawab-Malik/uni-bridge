@@ -15,13 +15,13 @@ export default function Objectives() {
     ];
 
     return (
-        <section className='bg-white py-12 md:py-14 overflow-hidden'>
+        <section className='bg-[#f96618] py-12 md:py-14 overflow-hidden'>
              <div className='mb-10 block md:hidden mx-2.5'>
                         <motion.h2
                             initial={{ y: 50 }}
                             whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
                             viewport={{ once: true, amount: 0.1 }}
-                            className='text-3xl md:text-4xl xl:text-5xl  font-bold  text-[#0D9488] text-center'>
+                            className='text-3xl md:text-4xl xl:text-5xl  font-bold  text-white text-center'>
                             The Objectives
                             {/* <AnimatedGradientText > */}
 
@@ -55,7 +55,7 @@ export default function Objectives() {
                             initial={{ y: 50 }}
                             whileInView={{ y: 0, transition: { type: "linear", duration: 1.0 } }}
                             viewport={{ once: true, amount: 0.1 }}
-                            className='text-3xl md:text-4xl xl:text-5xl  font-bold  text-[#0D9488] text-center'>
+                            className='text-3xl md:text-4xl xl:text-5xl  font-bold  text-white text-center'>
                             The Objectives
                             {/* <AnimatedGradientText > */}
 
@@ -77,7 +77,7 @@ export default function Objectives() {
                                 <span className="flex items-center justify-center bg-[#0D9488] text-white rounded-full w-10 min-w-10 h-10 font-semibold text-center">
                                     {index + 1}
                                 </span>
-                                <p className="text-[#4b5563] text-lg">{text}</p>
+                                <p className="text-white text-lg">{text}</p>
                             </motion.div>
                         ))}
                     </div>

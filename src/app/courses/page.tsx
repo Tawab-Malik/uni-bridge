@@ -52,12 +52,164 @@ const courses = [
         ratingCount: 120,
         
     },
+    {
+        id: 6,
+        title: "Public Speaking",
+        description: "Master the art of confident communication with our comprehensive public speaking course designed to inspire, influence, and engage.",
+        image: "/images/courses/public.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 7,
+        title: "Speech Writing",
+        description: "Learn to craft impactful speeches with clarity and persuasion, tailored to captivate audiences and leave a lasting impression.",
+        image: "/images/courses/speech.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+  
+    {
+        id: 8,
+        title: "Decision Making",
+        description: "Enhance your decision-making skills with strategies to analyze, prioritize, and choose effectively in personal and professional scenarios.",
+        image: "/images/courses/making.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 9,
+        title: "Fear of public speaking",
+        description: "Overcome your fear of public speaking and speak with confidence.",
+        image: "/images/courses/fear.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 10,
+        title: "Ethical Leadership",
+        description: "Lead with integrity and inspire trust through ethical leadership principles.",
+        image: "/images/courses/ethical.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 11,
+        title: "Psychology of decision making",
+        description: "Understand the psychology behind decision-making to make smarter, unbiased choices.",
+        image: "/images/courses/psychology.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 12,
+        title: "Science of the mind",
+        description: "Explore the science of the mind to unlock human potential and behavior.",
+        image: "/images/courses/science.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 13,
+        title: "Corporation Tax",
+        description: "Understand corporation tax principles to manage business finances effectively.",
+        image: "/images/courses/corporation.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 14,
+        title: "Financial Analysis",
+        description: "Master financial analysis to evaluate and drive business performance.",
+        image: "/images/courses/financial.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 15,
+        title: "Raising capital by startups",
+        description: "Learn effective strategies for startups to raise capital and fuel growth.",
+        image: "/images/courses/rising.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 16,
+        title: "Dividend policy",
+        description: "Explore dividend policy strategies to optimize shareholder value and company growth.",
+        image: "/images/courses/divide.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 17,
+        title: "Financing",
+        description: "Gain expertise in financing options to fuel business growth and manage capital effectively.",
+        image: "/images/courses/financing.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 18,
+        title: "Corporate Restructuring",
+        description: "Learn corporate restructuring strategies to optimize efficiency, improve performance, and drive business success.",
+        image: "/images/courses/corporate.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 19,
+        title: "Capital Market",
+        description: "Understand capital markets to make informed investment decisions and navigate financial opportunities.",
+        image: "/images/courses/capital.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    {
+        id: 20,
+        title: "Corporate Governance",
+        description: "Learn corporate governance principles to ensure transparency, accountability, and ethical business practices.",
+        image: "/images/courses/corporate-governce.jpg",
+        price: "00",
+        rating: 0.0,
+        ratingCount: 0.0,
+        
+    },
+    
 ];
 
 const CourseSection = () => {
     return (
-        <section className=" bg-white pt-16 md:pt-20 pb-20">
-            <div className=' relative bg-[url(/images/courses.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]'>
+        <section className=" bg-[#f96618]">
+            <div className=' relative bg-[url(/images/courses.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px]  pt-16 md:pt-20 pb-20'>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 {/* <TypewriterEffectSmooth words={words} /> */}
                 <h2 className=' relative text-3xl md:text-4xl xl:text-5xl text-center font-bold text-blue-chill '>Courses</h2>
@@ -87,7 +239,7 @@ const CourseSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1.5 }}
                     viewport={{ once: true }}
-                    className="text-3xl md:text-4xl xl:text-5xl font-bold text-[#0D9488] text-center mb-6"
+                    className="text-3xl md:text-4xl xl:text-5xl font-bold text-white text-center mb-6"
                 >
                     Here are Our All Courses
                 </motion.h2>
