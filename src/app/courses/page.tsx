@@ -233,7 +233,7 @@ const CourseSection = () => {
                 </div>
 
             </div>
-            <div className="max-w-7xl mx-2.5 xl:mx-auto pt-12 md:pt-24" id="AllCourses">
+            <div className="max-w-7xl mx-2.5 xl:mx-auto py-12 md:py-24" id="AllCourses">
                 <motion.h2
                     initial={{ opacity: 0, y: 100 }}
                     whileInView={{ opacity: 1, y: 0 }}
