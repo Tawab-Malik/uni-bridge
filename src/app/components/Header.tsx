@@ -52,6 +52,9 @@ const Header = () => {
                         <Link href="/contact" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
                             Contact
                         </Link>
+                        <Link href="/partner" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
+                            Partner
+                        </Link>
                     </div>
 
                     {/* Mobile Menu Toggle Button */}
@@ -88,6 +91,9 @@ const Header = () => {
                         </Link>
                         <Link href="/contact" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
                             Contact
+                        </Link>
+                        <Link href="/partner" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
+                            Partner
                         </Link>
                     </div>
                 </nav>
