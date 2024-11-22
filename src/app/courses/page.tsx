@@ -209,7 +209,7 @@ const courses = [
 const CourseSection = () => {
     return (
         <section className=" bg-[#f96618]">
-            <div className=' relative bg-[url(/images/courses.jpg)] bg-cover bg-center py-16 md:py-[200px] xl:py-[400px] '>
+            <div className=' relative bg-[url(/images/courses.jpg)] bg-cover bg-center pt-24 pb-16 md:py-[200px] xl:py-[400px] '>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 {/* <TypewriterEffectSmooth words={words} /> */}
                 <h2 className=' relative text-3xl md:text-4xl xl:text-5xl text-center font-bold text-blue-chill '>Courses</h2>

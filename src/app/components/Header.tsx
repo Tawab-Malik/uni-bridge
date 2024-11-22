@@ -53,7 +53,7 @@ const Header = () => {
                             Contact
                         </Link>
                         <Link href="/partner" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
-                            Partner
+                        Become a Partner
                         </Link>
                     </div>
 
@@ -93,7 +93,7 @@ const Header = () => {
                             Contact
                         </Link>
                         <Link href="/partner" className="text-[#1f2937]  hover:text-[#f96618] duration-500 ">
-                            Partner
+                        Become a Partner
                         </Link>
                     </div>
                 </nav>

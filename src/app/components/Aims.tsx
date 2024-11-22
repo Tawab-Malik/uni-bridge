@@ -93,7 +93,7 @@ const AimSection = () => {
                 <Slider {...settings} className="h-full">
                     {aims.map((aim, index) => (
                         <div key={index} className="px-2 lg:px-4 h-full">
-                            <div className="grid grid-cols-1 bg-white rounded-lg justify-start   h-[440px] md:h-[470px]  xl:h-[460px]">
+                            <div className="grid grid-cols-1 bg-white rounded-lg justify-start h-[440px] md:h-[470px]  xl:h-[460px]">
                                 <Image
                                     src={aim.image}
                                     alt="Aim Image"

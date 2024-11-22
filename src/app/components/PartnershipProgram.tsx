@@ -45,7 +45,7 @@ const PartnershipProgram = () => {
                      whileInView={{ opacity: 1, x: 0 }}
                      transition={{ duration: 0.5 }}
                      viewport={{ once: true }}
-                    className="bg-indigo-50 rounded-lg p-6 text-center hover:shadow-[0_10px_18px_15px_rgba(13,148,136,0.3)] duration-500 shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] h-full">
+                    className="bg-white rounded-lg p-6 text-center hover:shadow-[0_10px_18px_15px_rgba(13,148,136,0.3)] duration-500 shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] h-full">
                         <div className=" flex justify-center items-center pb-2">
                             <Image src="/images/partnership/partnership1.jpg" className='h-[100px] w-[100px]' alt='icon' height={100} width={100} />
                         </div>
@@ -64,7 +64,7 @@ const PartnershipProgram = () => {
                      whileInView={{ opacity: 1, y: 0 }}
                      transition={{ duration: 0.5 }}
                      viewport={{ once: true }}
-                    className="bg-indigo-50 rounded-lg p-6 text-center hover:shadow-[0_10px_18px_15px_rgba(13,148,136,0.3)] duration-500 shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] h-full">
+                    className="bg-white rounded-lg p-6 text-center hover:shadow-[0_10px_18px_15px_rgba(13,148,136,0.3)] duration-500 shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] h-full">
                         <div className=" flex justify-center items-center pb-2">
                             <Image src="/images/partnership/partnership2.jpg" className='h-[100px] w-[100px]' alt='icon' height={100} width={100} />
                         </div>
@@ -83,7 +83,7 @@ const PartnershipProgram = () => {
                      whileInView={{ opacity: 1, x: 0 }}
                      transition={{ duration: 0.5 }}
                      viewport={{ once: true }}
-                    className="bg-indigo-50 rounded-lg p-6 text-center hover:shadow-[0_10px_18px_15px_rgba(13,148,136,0.3)] duration-500 shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] h-full">
+                    className="bg-white rounded-lg p-6 text-center hover:shadow-[0_10px_18px_15px_rgba(13,148,136,0.3)] duration-500 shadow-[0_10px_18px_15px_rgba(0,0,0,0.1)] h-full">
                         <div className=" flex justify-center items-center pb-2">
                             <Image src="/images/partnership/partnership3.jpg" className='h-[100px] w-[100px]' alt='icon' height={100} width={100} />
                         </div>

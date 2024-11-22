@@ -46,7 +46,7 @@ export default function Footer() {
                                     </li>
                                     <li><Link className="hover:text-[#0D9488] text-sm xl:text-base text-white duration-300" href="/contact">Contact</Link>
                                     </li>
-                                    <li><Link className="hover:text-[#0D9488] text-sm xl:text-base text-white duration-300" href="/partner">Partner</Link>
+                                    <li><Link className="hover:text-[#0D9488] text-sm xl:text-base text-white duration-300" href="/partner">Become a Partner</Link>
                                     </li>
                                 </ul>
                             </div>

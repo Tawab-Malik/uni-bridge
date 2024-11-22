@@ -7,7 +7,7 @@ const BecomeAPartner = () => {
         <section className='bg-[#f96618]'>
             <div className="">
                 {/* Hero Section */}
-                <section className=" relative bg-[url(/images/partnership/partner.jpg)] bg-cover bg-center py-16 md:py-[100px] xl:py-[300px] pt-20 ">
+                <section className=" relative bg-[url(/images/partnership/partner.jpg)] bg-cover bg-top pb-16 md:py-[100px] xl:py-[300px] pt-24 ">
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                     <div className="relative max-w-7xl mx-2.5 xl:mx-auto px-8  md:py-24 text-center">
                         <h1 className=" relative text-3xl md:text-4xl xl:text-5xl text-center font-bold text-blue-chill">
@@ -27,7 +27,7 @@ const BecomeAPartner = () => {
 
                 {/* How We Make a Difference */}
                 <section className="py-16 px-5 xl:px-8 ">
-                    <h2 className=" text-2xl md:text-4xl font-bold text-center">
+                    <h2 className=" text-2xl text-white md:text-4xl font-bold text-center">
                         How We&apos;re Making a Difference
                     </h2>
                     <p className="mt-4 text-center text-white">
@@ -79,7 +79,7 @@ const BecomeAPartner = () => {
                 {/* Why Partner With Us */}
                 <section className="py-16 px-5 xl:px-8">
                     <div className="max-w-7xl mx-auto text-center" >
-                        <h2 className="text-2xl md:text-4xl font-bold">Why Partner with Us?</h2>
+                        <h2 className="text-2xl md:text-4xl text-white font-bold">Why Partner with Us?</h2>
                         <p className="mt-4 text-white">
                             We believe partnerships are the key to unlocking new possibilities in education.
                         </p>
@@ -109,7 +109,7 @@ const BecomeAPartner = () => {
                 {/* CTA Section */}
                 <section className="relative py-16 px-5 xl:px-8  text-white">
                     <div className="max-w-7xl mx-auto text-center">
-                        <h2 className="text-2xl md:text-4xl text-black font-bold">Start Your Partnership Journey</h2>
+                        <h2 className="text-2xl md:text-4xl text-white font-bold">Start Your Partnership Journey</h2>
                         <p className="mt-4 text-white">
                             Ready to make a meaningful impact in education? Let&apos;s work together to inspire and empower the next generation.
                         </p>

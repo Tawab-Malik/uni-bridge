@@ -27,7 +27,7 @@ export default function VisionSection() {
                 </motion.p>
            
           
-                <div className="grid gap-5 xl:gap-10 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-5 xl:gap-5 md:grid-cols-2 lg:grid-cols-3">
                 {/* <ShineBorder color={themeColor === "dark" ? "#063C87" : "#063C87"}> */}
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
